@@ -1,7 +1,9 @@
 {
 	"name": "kt",
 	"title": "高麗大藏經",
-	"bits":[ 6, 14, 5, 4 ],
+	"bits": [
+		6,13,5,5
+	],
 	"rendClass": [
 		"kai",
 		"b",
@@ -28,7 +30,59 @@
 		"eng",
 		"talk"
 	],
+	"images": [
+		"xml/KT_logo.png",
+		"xml/KT_logo1.png",
+		"xml/KT1.png"
+	],
 	"files": [
-		"xml"
+		"xml/高麗00.txt",
+		"xml/高麗01.xml",
+		"xml/高麗02.xml",
+		"xml/高麗03.xml",
+		"xml/高麗04.xml",
+		"xml/高麗05.xml",
+		"xml/高麗06.xml",
+		"xml/高麗07.xml",
+		"xml/高麗08.xml",
+		"xml/高麗09.xml",
+		"xml/高麗10.xml",
+		"xml/高麗11.xml",
+		"xml/高麗12.xml",
+		"xml/高麗13.xml",
+		"xml/高麗14.xml",
+		"xml/高麗15.xml",
+		"xml/高麗16.xml",
+		"xml/高麗17.xml",
+		"xml/高麗18.xml",
+		"xml/高麗19.xml",
+		"xml/高麗20.xml",
+		"xml/高麗21.xml",
+		"xml/高麗22.xml",
+		"xml/高麗23.xml",
+		"xml/高麗24.xml",
+		"xml/高麗25.xml",
+		"xml/高麗26.xml",
+		"xml/高麗27.xml",
+		"xml/高麗28.xml",
+		"xml/高麗29.xml",
+		"xml/高麗30.xml",
+		"xml/高麗31.xml",
+		"xml/高麗32.xml",
+		"xml/高麗33.xml",
+		"xml/高麗34.xml",
+		"xml/高麗35.xml",
+		"xml/高麗36.xml",
+		"xml/高麗37.xml",
+		"xml/高麗38.xml",
+		"xml/高麗39.xml",
+		"xml/高麗40.xml",
+		"xml/高麗41.xml",
+		"xml/高麗42.xml",
+		"xml/高麗43.xml",
+		"xml/高麗44.xml",
+		"xml/高麗45.xml",
+		"xml/高麗46.xml",
+		"xml/高麗47.xml"
 	]
 }

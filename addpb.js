@@ -58,6 +58,9 @@ function XmlAddMypb(go) {
             var s2 = 1
             var sfn = 1
             var sa = 1
+            for (var i = 0; i < b.length; i++) {
+                b[i] = b[i].replace(/(.{30})/g, '$1\n')
+            }
             for (var i = 1; i < b.length; i++) {
                 // <pb>不能寫在b[0]之前，否則「位元組順序記號」 EF BB BF ，會跑到第2行，變成亂碼
                 // b[i] = b[i] + '<pb n="' + j + '"/>'
