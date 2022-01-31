@@ -1,6 +1,7 @@
 {
 	"name": "kt",
 	"title": "高麗大藏經",
+	"bits":[ 6, 14, 5, 4 ],
 	"rendClass": [
 		"kai",
 		"b",

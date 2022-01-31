@@ -62,15 +62,16 @@ function XmlAddMypb(go) {
                 // <pb>不能寫在b[0]之前，否則「位元組順序記號」 EF BB BF ，會跑到第2行，變成亂碼
                 // b[i] = b[i] + '<pb n="' + j + '"/>'
                 // 先刪除舊的<頁>標記
-                b[i] = b[i].replace(/<頁 id.+>/, '')
-                    .replace(/冊>/, 'group>')
-                    .replace(/經>/, 'article>')
-                    .replace(/卷>/, 'h1>')
-                    .replace(/章>/, 'h2>')
-                    .replace(/節>/, 'h3>')
-                    .replace(/詩>/, 'si>')
-                    .replace(/英文名>/, 'eng>')
-                    .replace(/著者>/, 'sr>')
+                b[i] = b[i].replace(/<頁 id.+>/g, '')
+                    .replace(/檔>/g, 'file>')
+                    .replace(/冊>/g, 'group>')
+                    .replace(/經>/g, 'article>')
+                    .replace(/卷>/g, 'h1>')
+                    .replace(/章>/g, 'h2>')
+                    .replace(/節>/g, 'h3>')
+                    .replace(/詩>/g, 'si>')
+                    .replace(/英文名>/g, 'eng>')
+                    .replace(/著者>/g, 'sr>')
                 // // 調整[註釋]標記
                 // if (/<fn /.test(b[i])) {
                 //     b[i] = b[i].replace(/(<fn n=")([^"]+)("\/>)/g, '<link to ="' + path.basename(n,'.txt') + '_' + sfn + '">▼</link>')
