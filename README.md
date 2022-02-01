@@ -4,3 +4,6 @@
   
 > 最新Accelon下載資訊 http://adbdao.blogspot.com/2018/07/blog-post.html  
 ---  
+
+* 因為kt.cor有188MB。而GitHub不能上載超過100MB的檔案，所以kt.cor無法上載！請到智邦主機下載  
+---  
