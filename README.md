@@ -6,4 +6,5 @@
 ---  
 
 * 因為kt.cor有188MB。而GitHub不能上載超過100MB的檔案，所以kt.cor無法上載！請到智邦主機下載  
+* 也因此；tag v1.0包含kt.cor。所以不能上載tag v1.0。只能上載tag v2.0以後的tag  
 ---  
